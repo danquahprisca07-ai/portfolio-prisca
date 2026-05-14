@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #FAF7F5;
+    color: #1A1A1A;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #B76E79;
+}
+
+.logo span {
+    color: #D4AF37;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #6A4E4F;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover,
+.active {
+    color: #B76E79;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 50px;
+    align-items: center;
+}
+
+.hero-text h2 span {
+    color: #B76E79;
+}
+
+.hero-text .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #B76E79;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.hero-text .btn:hover {
+    background: #6A4E4F;
+}
+
+.hero-img img {
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    animation: float 4s ease-in-out infinite;
+}
+
+/* Animation */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
