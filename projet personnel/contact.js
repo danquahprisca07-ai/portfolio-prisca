@@ -31,7 +31,7 @@ if (form) {
         }
 
         if (valid) {
-            success.textContent = "Message envoyé (simulation). Merci pour ton contact !";
+            success.textContent = "Message envoyé . Merci pour ton contact !";
             form.reset();
         }
     });
